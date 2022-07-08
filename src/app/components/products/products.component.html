@@ -1,0 +1,9 @@
+<br>
+<h4>Lista de productos</h4>
+<hr>
+<ol>
+    <li *ngFor="let product of products">
+        <p>{{product.title}}</p>
+        <img width="80px" [src]="product.image" alt="producto">
+    </li>
+</ol>
